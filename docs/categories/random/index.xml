@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on It&#39;s me, Bigo - bigode.me</title>
-    <link>http://bigodines.github.io/posts/</link>
-    <description>Recent content in Posts on It&#39;s me, Bigo - bigode.me</description>
+    <title>Random on It&#39;s me, Bigo - bigode.me</title>
+    <link>http://bigodines.github.io/categories/random/</link>
+    <description>Recent content in Random on It&#39;s me, Bigo - bigode.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Dec 2017 12:19:04 -0800</lastBuildDate>
     
-	<atom:link href="http://bigodines.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bigodines.github.io/categories/random/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

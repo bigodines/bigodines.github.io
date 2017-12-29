@@ -6,9 +6,19 @@
     <description>Recent content in Tags on It&#39;s me, Bigo - bigode.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 29 Dec 2017 12:19:04 -0800</lastBuildDate>
     
 	<atom:link href="http://bigodines.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Random</title>
+      <link>http://bigodines.github.io/tags/random/</link>
+      <pubDate>Fri, 29 Dec 2017 12:19:04 -0800</pubDate>
+      
+      <guid>http://bigodines.github.io/tags/random/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

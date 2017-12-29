@@ -10,5 +10,14 @@
 	<atom:link href="http://bigodines.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Random</title>
+      <link>http://bigodines.github.io/categories/random/</link>
+      <pubDate>Fri, 29 Dec 2017 12:19:04 -0800</pubDate>
+      
+      <guid>http://bigodines.github.io/categories/random/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

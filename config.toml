@@ -3,3 +3,32 @@ languageCode = "en-us"
 title = "It's me, Bigo - bigode.me"
 theme = "xmin"
 publishDir = "docs"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "bigo static blog."
+    footer = "&copy; [Matheus `bigo` Mendes ](https://bigode.me) 2018 | [@bigodines](https://twitter.com/bigodines)"
+
