@@ -1,6 +1,7 @@
 baseURL = "http://bigodines.github.io/site/"
 languageCode = "en-us"
 title = "It's me, Bigo - bigode.me"
+googleAnalytics = "UA-111729804-1"
 theme = "xmin"
 publishDir = "docs"
 
