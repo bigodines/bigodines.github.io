@@ -1,4 +1,4 @@
-baseURL = "http://bigodines.github.io/site"
+baseURL = "http://bigodines.github.io/"
 languageCode = "en-us"
 title = "It's me, Bigo - bigode.me"
 theme = "ananke"
