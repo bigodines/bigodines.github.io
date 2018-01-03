@@ -7,5 +7,5 @@ tags:
   - Random
 ---
 
-Fantastic. What else can you do?
+First posts are always boring. This is no different.
 
