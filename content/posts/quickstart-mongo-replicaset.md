@@ -16,7 +16,12 @@ Before we dig into the steps and code, let's quickly talk about replica sets and
 
 When you are designing your database architecture, you have to think about how it is going to scale and how to make sure your data is always up (or to mitigate the risk of it becoming unaveilable). We are always playing with single instances of a database in our pet projects and school but once things get real you don't want the database to be a single point of failure in the whole ecosystem.
 
-Our goal here is to make sure we are not overloading any particular instance by creating multiple instances. We also wanna make sure the data is consistent across the instances and that if something goes wrong our systems is going to recover beautifully and our users are not going to notice.
+Our goal here is to make sure we are not overloading any particular instance by creating multiple instances of the same db. We also wanna make sure the data is consistent across the instances and that if something goes wrong our systems is going to recover beautifully in a way that  our users are not going to notice.
 
-MongoDB has a lot flaws (I'd be happy to dedicate an )
+MongoDB has a lot flaws (I'd be happy to dedicate an entire post complaining about Mongo) but it does make replication very easy to do. We're gonna be configuring a replicaset with one master for write operations and two slaves that will split the load of the reading operations. Of course this is silly because everything will be running on localhost but again, this is just to illustrate the idea.
+
+## The plan
+
+* I will be using **MongoDB 3.6.2** but I'd expect these instructions to work on any 3.x version (lemme know if it doesn't)
+* Our master is going to run on port 27018 and we'll have slaves on 27019 and 27020
 
